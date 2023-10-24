@@ -5,17 +5,17 @@ export default class ContactoPagina extends React.Component{
 constructor(props){
     super(props);
     
-this.setState= {
+this.state = {
     nombre: '',
     mensaje: ''
 }
 
     this.submitted= this.submitted.bind(this);
-    this.changed= this.submitted.bind(this);
+    this.changed = this.changed.bind(this);
 }
 
     submitted(event){
-        alert("Se envio el Formulario de" + this.State.nombre);
+        alert("Se envio el Formulario de " + this.state.nombre);
         event.preventDefault();
 
     }
@@ -23,7 +23,7 @@ this.setState= {
 changed(event){
     this.setState({
         nombre: event.target.value
-    })
+    });
 
 }
 
@@ -48,4 +48,4 @@ render(){
             
        )
    }
-}   
+}    

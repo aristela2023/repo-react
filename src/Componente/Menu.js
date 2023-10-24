@@ -11,7 +11,9 @@ render(){
                 <Link to="/" className="mx-3"> Inicio</Link>
                 <Link to="/artista" className="mx-3"> Artista</Link>
                 <Link to="/contacto" className="mx-3"> Contacto</Link>
-            </div>
+                <Link to="/lanzamientos" className="mx-3"> Lanzamientos</Link>
+
+             </div>
             </div>
             
        )

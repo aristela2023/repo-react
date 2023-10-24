@@ -12,9 +12,11 @@ render(){
   <Artista nombre="Dire Straits" 
   img="/imagen/lacienciadelosnumeros.jpg"
   descripcion="Dire Straits" /> 
+
   <Artista nombre="The Who" 
   img="/imagen/lacienciadelosnumeros.jpg"
   descripcion="Dire Straits"/>
+  
   <Artista nombre="Jack Johnson"
   img="/imagen/lacienciadelosnumeros.jpg"
   descripcion="Dire Straits" />
