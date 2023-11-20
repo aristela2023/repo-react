@@ -26,7 +26,7 @@ export default class AngelesArcangelesPagina extends React.Component {
     render(){
         return(
             <>
-                    <h2> Angeles </h2>
+                    <h2> Angeles  Arcangeles</h2>
                     <ListaAngeles angelesarcangeles={this.angelesarcangeles} />
       
             

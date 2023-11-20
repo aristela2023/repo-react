@@ -5,7 +5,7 @@ export default class Menu extends React.Component {
         return(
             <div className="row">
                 <div className="col-12 d-flex align-items-center bg-light fixed-top py-2 px-4">
-                    <h1> DIMENSION CONTEMPORANEA OTRA VEZ REVISANDO </h1>
+                    <h1> DIMENSION CONTEMPORANEA OTRA VEZ REVISANDO2 </h1>
                 <span className="mx-3"> AngelesArcangeles</span>
                 <span className="mx-3"> CONEXION ESPIRITUAL</span>
                 <span className="mx-3"> ORACULO DIARIOS</span>
