@@ -26,11 +26,10 @@ export default class AngelesArcangeles extends React.Component {
                     <div className="px-3">
                     <h2>{this.props.nombre} </h2>
                     <p>{this.props.mision} </p>
-                    <button className="btn btn-green" onClick={this.toggleEsconder}>esconder</button>
-                    </div>
+                    <button className="btn btn-success " onClick={this.toggleEsconder}>Ocultar</button>
+                        </div>
+                     </div>
                 </div>
-                </div>
-        );
-        
+        )
+     }
     }
-}

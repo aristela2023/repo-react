@@ -7,8 +7,9 @@ export default class Menu extends React.Component {
            <div className="row bg-light fixed-top px-5 py-3">
             <div className="col-12 d-flex align-items-center bg.light fixed-top py-3 px-5">
                 <h1>Proyecto Mistico</h1>
-                <Link to="/" className="mx-3"> Angeles </Link>
-                <Link to="/geometria" className="mx-3"> Geometria Sagrada</Link>
+                <Link to="/" className="mx-3"> Inicio </Link>
+                <Link to="/angelesarcangeles" className="mx-3"> AngelesArcangeles </Link>
+                <Link to="/enlace" className="mx-3"> Enlace </Link>
                 <Link to="/frecuencia" className="mx-3">  Frecuencia </Link>
             </div>
            </div>
